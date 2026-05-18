@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 本地测试 / 构建产物（旧 Java 项目）
+target/
+pom.xml
+src/
+
+# 密钥与本地配置（勿上传）
+.env
+*.local
